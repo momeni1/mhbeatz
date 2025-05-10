@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHBEATZ - بیت و آهنگسازی</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    background-image: url('music-background.png'); /* آدرس تصویر پس‌زمینه */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: rgba(192, 57, 43, 0.8); /* رنگ قرمز با شفافیت */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    background: rgba(44, 62, 80, 0.8); /* رنگ مشکی با شفافیت */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #c0392b;
+}
+
+.beat {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #c0392b;
+    background: rgba(52, 73, 94, 0.8); /* رنگ مشکی با شفافیت */
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+
+<header>
+<div class="logo">
+        <h1>MHBEATZ</h1>
+        <span class="music-icon">🎵</span>
+    </div>
+ 
+    <nav>
+        <a href="#about">Info</a>
+        <a href="#beats">Beats</a>
+        <a href="#contact">Connect-us</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>درباره ما</h2>
+        <p>MHBEATZ is a platform for producing and delivering high-quality music beats. We help artists and music producers create their best work.</p>
+    </section>
+
+    <section id="beats">
+        <h2>بیت‌های ما</h2>
+        <div class="beat">
+            <h3>Fly</h3>
+            <p>
+Ganre |Pop - Flamenco
+</p>
+ <p>
+Mood |Love
+</p>
+            <audio controls>
+                <source src="fy.mp3" type="audio/mpeg">
+            
+            </audio>
+        </div>
+        <div class="beat">
+            <h3>Energy</h3>
+            <p>Ganre |HeavyRock - Metal</p>
+     <p>Mood |Motivational</p>
+            <audio controls>
+                <source src="Energy.mp3" type="audio/mpeg">
+               
+            </audio>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>تماس با ما</h2>
+        <p>For more information and to cooperate with us, please contact us:</p>
+        <p>Phone: +98-9919472340</p>
+        <a href="https://t.me/mhbeatz" 
+        class="telegram-button"
+        target="_blank">TELEGRAM</a>
+        <p>E-mail: Mh.beatz@yahoo.com</p>
+    </section>
+</div>
+
+<footer>
+    <p>کپی رایت &copy; 2023 MHBEATZ</p>
+</footer>
+
+</body>
+</html>
